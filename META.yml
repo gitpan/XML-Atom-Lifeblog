@@ -1,11 +1,11 @@
 # http://module-build.sourceforge.net/META-spec.html
 #XXXXXXX This is a prototype!!!  It will change in the future!!! XXXXX#
 name:         XML-Atom-Lifeblog
-version:      0.01
+version:      0.02
 version_from: lib/XML/Atom/Lifeblog.pm
 installdirs:  site
 requires:
-    Image::Info:                   0
+    MIME::Types:                   0
     Test::More:                    0.32
     XML::Atom:                     0.11
 
